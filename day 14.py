@@ -43,6 +43,6 @@ print('deel 1:', a)
 for i in range(xrange): veld[i][my+2]='#'
 while f_c(500-dif,0,2): a+=1
 
-print('deel 2:', a+1)
+print('deel 2:', a+1)  #puntje van de boom nog meetellen, vandaar a+1
 
 print("--- %s seconds ---" % (time.time() - start_time))
